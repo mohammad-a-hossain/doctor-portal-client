@@ -1,4 +1,15 @@
-.App {
+.btn-brand{
+  background-image: linear-gradient(75deg,rgb(181, 233, 168) , #555555);
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text-brand{
+  color: #1cc7c1;
+}
+
+ .App {
   text-align: center;
 }
 
@@ -36,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+ 

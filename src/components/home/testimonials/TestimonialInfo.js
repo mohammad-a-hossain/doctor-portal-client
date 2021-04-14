@@ -1,5 +1,5 @@
 import React from 'react'
-import Testimonial from './Testimonial'
+
 
  const TestimonialInfo = ({tinfo}) => {
     return ( 

@@ -1,6 +1,6 @@
 import React from 'react'
 import CardInfo from '../cardInfo/CardInfo'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 import { faClock,faPhone,faMapMarker } from '@fortawesome/free-solid-svg-icons'
