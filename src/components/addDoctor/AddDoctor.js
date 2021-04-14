@@ -25,7 +25,7 @@ import Sidebar from '../dashboard/sidebar/Sidebar'
         formData.append('email', doctorInfo.email); 
         formData.append('phone', doctorInfo.phone); 
 
-        fetch('http://localhost:5200/addADoctor', {
+        fetch('https://protected-plains-09672.herokuapp.com/addADoctor', {
             method: 'POST',
             body: formData
         })

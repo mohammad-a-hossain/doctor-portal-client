@@ -19,7 +19,7 @@ import { UserContext } from '../../../App';
         setSelectedDate(date);
     }
     useEffect(() => {
-        fetch('http://localhost:5200/appointmentsByDate',{
+        fetch('https://protected-plains-09672.herokuapp.com/appointmentsByDate',{
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ date: selectedDate,email:loggedInUser.email})
